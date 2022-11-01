@@ -1,0 +1,60 @@
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+}
+
+.container > h1 {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background-color: transparent;
+    border: #D65A31 2px solid;
+    border-radius: 5px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.List {
+    margin: 20px 0px;
+}
+
+.List > li {
+    background-color: #D65A31 ;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: #222831;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form > div > input {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: transparent;
+    border: #D65A31 2px solid;
+    color: #D65A31;
+    font-weight: bold;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
